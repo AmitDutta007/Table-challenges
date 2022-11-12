@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  font-family: "poppins", "verdana";
+  box-sizing: border-box;
+}
+
+body{
+  background: rgba(0, 0, 0, 0.5) url(./images/leaves.jpg);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+position: relative;
+}
+h1,h2{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+.yo{
+  width: 100%;
+  color: #fff;
+  margin-left: 80px;
+}
+
+h3{
+margin-left: 37%;
+}
+button{
+  width: 300px;
+  height: 40px;
+  background-color: #207398;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
